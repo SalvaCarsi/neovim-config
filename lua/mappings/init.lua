@@ -34,5 +34,6 @@ map('n', '<leader>b', ':Telescope buffers<CR>', opts)
 vim.cmd('map <Leader>j :lua vim.lsp.buf.formatting_sync()<CR>')
 
 --> colorscheme
+vim.cmd('colorscheme terafox')
 -- vim.g.tokyonight_style = "night"
-vim.cmd('colorscheme gruvbox')
+-- vim.cmd('colorscheme gruvbox')
