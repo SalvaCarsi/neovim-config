@@ -8,10 +8,13 @@ return require('packer').startup(function()
     use 'lewis6991/gitsigns.nvim'
     use 'tpope/vim-fugitive'
     use 'tpope/vim-commentary'
-    use 'tamelion/neovim-molokai'
     use 'yuezk/vim-js'
     use 'HerringtonDarkholme/yats.vim'
     use 'maxmellon/vim-jsx-pretty'
-    use 'EdenEast/nightfox.nvim'
     use 'sheerun/vim-polyglot'
+
+    use 'folke/tokyonight.nvim'
+    use 'EdenEast/nightfox.nvim'
+    use 'tamelion/neovim-molokai'
+    use 'ellisonleao/gruvbox.nvim'
 end)
