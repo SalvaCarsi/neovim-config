@@ -9,3 +9,8 @@ require('gitsigns').setup{
     vim.wo.signcolumn = "yes"
     end
 }
+require'nvim-treesitter.configs'.setup {
+  --> nvim-ts-autotag module
+  autotag = { enable = true },
+}
+require('nvim-autopairs-config')

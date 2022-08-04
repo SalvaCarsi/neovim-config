@@ -12,7 +12,10 @@ return require('packer').startup(function()
     use 'maxmellon/vim-jsx-pretty'
     use 'sheerun/vim-polyglot'
     use 'lewis6991/gitsigns.nvim'
+    use 'windwp/nvim-ts-autotag'
+    use 'windwp/nvim-autopairs'
 
+    --> Colorschemes
     use 'folke/tokyonight.nvim'
     use 'EdenEast/nightfox.nvim'
     use 'tamelion/neovim-molokai'
