@@ -16,6 +16,7 @@ return require('packer').startup(function()
     use 'windwp/nvim-autopairs'
     use 'mg979/vim-visual-multi'
     use 'tpope/vim-surround'
+    use({ "kelly-lin/telescope-ag", requires = { { "nvim-telescope/telescope.nvim" } } })
 
     --> Colorschemes
     use 'folke/tokyonight.nvim'

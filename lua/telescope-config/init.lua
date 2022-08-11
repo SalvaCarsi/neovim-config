@@ -7,6 +7,7 @@ end
 local actions = require('telescope.actions')
 
 telescope.load_extension('fzf')
+telescope.load_extension("ag")
 
 telescope.setup({
     defaults = {
