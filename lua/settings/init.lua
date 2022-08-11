@@ -26,8 +26,6 @@ set.completeopt = 'menuone,noselect'
 set.showmode = false
 set.wildmenu = true
 set.cursorline = false
-set.encoding='utf-8'
-set.fileencoding='utf-8'
-set.fileencodings='utf-8,ucs-bom,gb18030,gbk,gb2312,cp936'
-
--- vim.notify = require("notify")
+set.encoding = 'utf-8'
+set.fileencoding = 'utf-8'
+set.fileencodings = 'utf-8,ucs-bom,gb18030,gbk,gb2312,cp936'
